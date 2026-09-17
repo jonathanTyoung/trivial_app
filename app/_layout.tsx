@@ -19,7 +19,9 @@ export default function RootLayout() {
         <Stack.Screen name="pick" options={{ gestureEnabled: false }} />
         <Stack.Screen name="done" options={{ gestureEnabled: false }} />
         <Stack.Screen name="menu" options={{ animation: 'slide_from_right' }} />
-        <Stack.Screen name="stats" options={{ animation: 'slide_from_right' }} />
+        <Stack.Screen name="stats" />
+        <Stack.Screen name="history" />
+        <Stack.Screen name="unlock" />
       </Stack>
     </>
   );
